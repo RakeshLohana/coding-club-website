@@ -1,0 +1,63 @@
+.my-form {
+    margin-top: 80px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: maroon;
+  }
+  
+  input[type='text'],
+  input[type='tel'],
+  input[type='email'],
+  select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid maroon;
+    border-radius: 5px;
+    font-size: 16px;
+    color: maroon ;
+  }
+  
+
+  
+  .submit-button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #800000; /* Darker shade of maroon */
+  }
+  
+  
+
+
+.form-group select {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid maroon;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    color: maroon;
+  }
+  
+  .form-group select option:hover {
+    background-color: maroon;
+    color: white;
+  }
+   #register-tag{
+    color: #800000;
+   }
