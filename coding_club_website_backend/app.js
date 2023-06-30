@@ -12,10 +12,6 @@ app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 
 
-
-
-
-
 app.use(body_parser.json());
  app.use('/',taskRouter);
  app.use('/',joinTeamRouter);

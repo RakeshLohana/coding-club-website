@@ -49,7 +49,7 @@ const Event = () => {
                   <p>Get ready to showcase your coding prowess and win big prizes.Hurry-Up get Register for our competition today!</p>
                 </div>
                 <div className="mt-4">
-                  <Link to="/form" href='https://forms.gle/933npN97Gxk1BAhN6' className="main-btn">Register Now</Link>
+                  <Link to="/form" className="main-btn">Register Now</Link>
 
                 </div>
               </div>
@@ -69,7 +69,7 @@ const Event = () => {
                   <img src={ele.image} className="card-img-top" alt="..." />
 
                   <div className='text-center'>
-                    <Link to="/form" className='main-btn text-decoration-none' href='https://forms.gle/933npN97Gxk1BAhN6' target='_blank'> Register Now </Link>
+                    <Link to="/form" className='main-btn text-decoration-none'> Register Now </Link>
                   </div>
 
                 </div>

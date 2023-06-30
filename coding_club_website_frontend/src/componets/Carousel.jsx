@@ -23,15 +23,11 @@ export default function Carousel() {
   </div>
   <div className="carousel-inner">
     <div className="carousel-item active pickgradient">
-      {/* <img src="https://source.unsplash.com/1400x400/?code,program" className="d-block w-100" alt="..."/> */}
       <img src={Image1} className="d-block w-100" alt="..."/>
       <div className="carousel-caption d-none d-md-block  carousel_section_center ">
         <h2>Welcome to our Coding Club </h2>
         <p>WE BELIVE IN INOVATION</p>
-     
-        {/* <Link to='/blog' className="btn btn-danger">Blog</Link> */}
-        {/* <a href='https://forms.gle/3gMEdXo3xxQmrZkm7' target='_blank' className='btn btn-danger'>JOIN OUR TEAM</a> */}
-        <Link to="/jointeamform" target="_blank" className="btn btn-danger">  JOIN OUR TEAM </Link>
+        <Link to="/jointeamform"  className="btn btn-danger">  JOIN OUR TEAM </Link>
 
       </div>
     </div>

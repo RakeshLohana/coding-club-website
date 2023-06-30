@@ -21,7 +21,7 @@ const MyFormComponent = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await sendDataToAPI();
-    navigate('/');
+    navigate('/Event');
   };
 
   const sendDataToAPI = async () => {

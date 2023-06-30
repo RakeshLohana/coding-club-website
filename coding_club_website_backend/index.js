@@ -5,9 +5,6 @@ const taskModel=require("./model/task.model");
 const joinTeamModel=require("./model/joinTeamModel");
 
 
-
-
-
 app.get('/',(req,res)=>{
     res.json(
         {

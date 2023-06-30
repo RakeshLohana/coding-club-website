@@ -9,19 +9,12 @@ const ContactUS = () => {
   const SendEmail = (e) => {
     e.preventDefault()
     emailjs.sendForm(process.env.REACT_APP_SERVICE_KEY_CONTACT,process.env.REACT_APP_TEMPLATE_KEY,e.target,process.env.REACT_APP_USER_KEY).then((res)=>{
-console.log(res.text)
+    console.log(res.text)
     })  
   }
 
   return (
   <div>
-
-    {/* 
-    <!-- ====================================== Slider End ============================================ -->
-
-    <!-- =======================================Get in touch heading ============================================ --> */}
-
-
     <div style={{ display: 'flex', flexDirection: 'column' }} >
       <section>
         <div className="contact-hd container">
@@ -54,11 +47,6 @@ console.log(res.text)
               <p></p
               ></span>
 
-            {/* <span><img className="callme" src={phone} alt="" />
-              <h4>Call:</h4>
-              // {/* <p>+92 308 2931010</p> */}
-            {/* </span>  */}
-         
          
           </div>
           <div className="inputs col-sm-12 col-md-7 col-lg-7 col-xl-7">
