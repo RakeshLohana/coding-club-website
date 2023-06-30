@@ -117,7 +117,7 @@
 
 .info {
   margin-top: 50px !important;
-  background-color: rgb(252, 252, 255);
+  background-color: white;
 }
 
 .info h4 {
@@ -175,20 +175,22 @@ textarea {
   margin-top: 20px;
 }
 .submitBtn {
+  color: white;
   padding-top: 6px;
   padding-bottom: 6px;
   background-color: rgb(153, 0, 0) !important;
   border: none !important;
   outline: none !important;
   float: right;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 30%;
   height: 7%;
-  font-size: small;
+  font-size: me;
 }
 .submitBtn:focus {
   outline: none;
   border: none;
+  box-shadow: maroon;
 }
 
 .name-inp{
@@ -346,4 +348,9 @@ tr:hover {
   border-radius: 50%;
   object-fit: cover;
   margin-right: 10px;
+}
+
+.textarea-inp{
+  color:maroon ;
+  font-weight: bold;
 }

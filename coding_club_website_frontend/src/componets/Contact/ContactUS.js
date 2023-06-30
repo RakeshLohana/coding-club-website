@@ -17,7 +17,7 @@ const ContactUS = () => {
         const formData = { name, email, subject, message };
 
         try {
-            const response = await axios.post('http://localhost:4000/joinTeam', formData);
+            const response = await axios.post('http://localhost:4000/email', formData);
             if (response.status === 200) {
                 alert('Email sent successfully');
                 setName('');
@@ -42,7 +42,7 @@ const ContactUS = () => {
                         <div>
                             <h1 >Contact <color className="contact-hd"> us </color></h1>
                             <p>
-                                Thank you for your interest in our website! We welcome your comments, feedback, and questions. Please fill out the form below to contact us. Our team will get back to you as soon as possible.
+                                Thank you for your interest in our website! We welcome your comments, feedback, and questions <br/> Please fill out the form below to contact us. Our team will get back to you as soon as possible.
                             </p>
                         </div>
 
@@ -112,7 +112,9 @@ const ContactUS = () => {
                                     onChange={(e) => setMessage(e.target.value)}
                                 ></textarea>
                                 <div>
-                                    <input type="submit" className="submitBtn btn btn-primary text-center" title="Submit" />
+                                <input type="submit" class="submitBtn" value="Submit" title="Submit" />
+
+                                    {/* <input type="submit" className="submitBtn btn btn-primary text-center" title="Submit" /> */}
                                 </div>
                             </form>
                         </div>
