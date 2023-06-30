@@ -38,7 +38,7 @@ const Leaderboard = () => {
       profileImage: "images/Sponsos/image_11.jpg",
     },
     {
-      name: "Byte Hogs",  
+      name: "Byte Hogs", 
       event: "Data Science",
       score: 78,
       teamImage: "images/Sponsos/image_12.jpg",
