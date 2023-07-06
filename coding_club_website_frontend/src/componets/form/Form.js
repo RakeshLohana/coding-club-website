@@ -12,6 +12,7 @@ const MyFormComponent = () => {
     department: '',
     batch: '',
     competition: '',
+    PARENTS_NAME: ''
   });
 
   const handleChange = (e) => {
