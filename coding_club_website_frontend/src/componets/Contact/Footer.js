@@ -11,7 +11,7 @@ const footer = () => {
     <div className="footer">
       <div className="footer-box">
         <p className="footer-mat">Contact Us</p>
-        <p className="footer-para" style={{fontSize:'20px'}}><b>Email: </b > CodingClub@gmail.com</p>
+        <p className="footer-para" style={{fontSize:'15px'}}><b>Email: </b > CodingClub@gmail.com</p>
         {/* <p className="footer-para"><b>Phone:</b> +92 308 2931010</p> */}
         <a href="#"  target='_blank'
           ><img src={facebook} height="30px" width="30px"

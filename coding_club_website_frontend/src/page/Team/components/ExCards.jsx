@@ -5,22 +5,22 @@ import SingleCard from "./SingleCard";
 const detail = [
   {
     name: "RAKESH KUMAR",
-    post: "President",
+    post: "President\nrakeshlohana@gmail.com",
     imageURL: "images/Directorate/p1.jpeg",
   },
   {
     name: "ALI AHSAN SAMNANI",
-    post: "MEMBER",
+    post: "MEMBER\nAliAhsansamnanani@gmail.com",
     imageURL:"images/Directorate/p2.jpeg"
   },
   {
     name: "BASIT ALI",
-    post: "MEMBER",
+    post: "MEMBER\nbasitalikhan2619@gmail.com",
     imageURL:"images/Directorate/p3.jpeg",
   },
   {
     name: "ALI NADEEM",
-    post: "MEMBER",
+    post: "MEMBER\nnadeemkhan1232@gmail.com",
     imageURL:"images/Directorate/p4.jpeg",
   }
 ];

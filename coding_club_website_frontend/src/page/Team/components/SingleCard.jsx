@@ -11,7 +11,9 @@ const SingleCard = (props) => {
           <h2>
             {props.name}
             <br />
-            <span>{props.post}</span>
+            <span style={{fontSize :"14px"}}>{props.post}</span>
+            
+            
           </h2>
         </div>
       </div>

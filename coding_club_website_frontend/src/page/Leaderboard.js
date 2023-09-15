@@ -38,7 +38,7 @@ const Leaderboard = () => {
       profileImage: "images/Sponsos/image_11.jpg",
     },
     {
-      name: "Byte Hogs",  
+      name: "Byte Hogs", 
       event: "Data Science",
       score: 78,
       teamImage: "images/Sponsos/image_12.jpg",
@@ -51,15 +51,15 @@ const Leaderboard = () => {
         
     <div className="leaderboard row " >
     <h2 >Winners of Past Events</h2>
-      <table    >
-        <thead>
-          <tr>
-            <th>Rank</th>
-            <th>Team</th>
-            <th>Profile</th>
-            <th>Name</th>
-            <th>Event</th>
-            <th>Score</th>
+      <table>
+        <thead >
+          <tr >
+            <th style={{backgroundColor:'rgb(77, 0, 0)'}}>Rank</th>
+            <th style={{backgroundColor:'rgb(77, 0, 0)'}}>Team</th>
+            <th style={{backgroundColor:'rgb(77, 0, 0)'}}>Profile</th>
+            <th style={{backgroundColor:'rgb(77, 0, 0)'}}>Name</th>
+            <th style={{backgroundColor:'rgb(77, 0, 0)'}}>Event</th>
+            <th style={{backgroundColor:'rgb(77, 0, 0)'}}>Score</th>
           </tr>
         </thead>
         <tbody>
